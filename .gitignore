@@ -1,0 +1,29 @@
+.env
+venv/
+__pycache__/
+*.pyc
+work/
+output/
+models/
+secrets/
+
+# --- GitHub icin eklendi (2026-10-30) ---
+# loglar
+*.log
+# Klip Studio: proje medyasi (GB'larca video), cop kutusu, node bagimliliklari, derleme ciktisi
+studio/projects/
+studio/trash/
+studio/web/node_modules/
+studio/web/dist/
+# YouTube Audio Library muzikleri: tek basina dagitilmasi lisansa aykiri (SOURCES.txt kalir)
+assets/music/*.mp3
+# baskasina ait ornek videolar / kareler
+examples/
+# yuklenen kliplerin postiz linkleri (ozel)
+postiz_media_map.json
+# yerel Claude Code ayarlari
+.claude/settings.local.json
+# Remotion render paketi (derleme ciktisi)
+studio/web/.bundle/
+# MCP calisma yapilandirmasi: yerel kullanici/klasor yolunu icerir, her makinede yeniden uretilir
+studio/mcp/mcp.runtime.json

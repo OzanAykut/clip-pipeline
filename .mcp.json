@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "klip-studio": {
+      "command": "venv/Scripts/python.exe",
+      "args": ["studio/mcp/server.py"]
+    }
+  }
+}
